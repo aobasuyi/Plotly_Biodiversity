@@ -1,0 +1,14 @@
+body {
+
+ color: black;
+
+    background-color: rgba(192,192,192,0.3)
+    ;
+
+  }
+.jumbotron {
+    background-image: url("../images/photo2.jpg");
+    background-size: cover;
+height: 100%;
+    text-align: center;
+}

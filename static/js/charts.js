@@ -79,8 +79,8 @@ function buildCharts(sample) {
     var values = result.sample_values.slice(0,10).reverse(); 
 
     // 6a. Create variables that hold labels and values for Bubble Chart
-    var bubbleLabels = result.otu_labels;
-    var bubbleValues = result.sample_values; 
+    var bLabels = result.otu_labels;
+    var bValues = result.sample_values;  
 
     // 6c. Create a variable that holds the washing frequency for Gauge Chart
     var wfreqs = gaugeResult.wfreq;
@@ -99,21 +99,27 @@ function buildCharts(sample) {
     orientation: "h",
     text: labels 
   }];
+
 // 9. Create the layout for the bar chart. 
-  var barLayout = {
-    title: "Top 10 Bacteria Cultures Found"
-  };
+var barLayout = {
+  title: "<b>Top 10 Bacteria Cultures Found<b>",
+  paper_bgcolor:"transparent",
+    font: {
+      color: "black"
+    }
+};
+
 // 10. Use Plotly to plot the data with the layout. 
   Plotly.newPlot("bar", barData, barLayout);
  
 // 11. Create the trace for the bubble chart.
 var bubbleData = [{
   x: ids,
-  y: bubbleValues,
-  text: bubbleLabels,
+  y: bValues,
+  text: bLabels,
   mode: "markers",
    marker: {
-     size: bubbleValues,
+     size: bValues,
      color: ids,
      colorscale: "Earth" 
    }
@@ -121,10 +127,15 @@ var bubbleData = [{
 
 // 12. Create the layout for the bubble chart.
 var bubbleLayout = {
-  title: "Bacteria Cultures Per Sample",
+  title: "<b>Bacteria Cultures Per Sample<b>",
   xaxis: {title: "OTU ID"},
+  showlegend: false,
   automargin: true,
-  hovermode: "closest"
+  hovermode: "closest",
+  paper_bgcolor:"transparent",
+      font: {
+        color: "black" 
+      }
 };
 
 // 13. Use Plotly to plot the data with the layout.
@@ -152,9 +163,12 @@ var gaugeData = [{
 }];
 // 15. Create the layout for the gauge chart.
 var gaugeLayout = { 
-  automargin: true
-};
-
+  automargin: true,
+  paper_bgcolor:"transparent",
+      font: {
+        color: "black" 
+      }
+    };
 // 16. Use Plotly to plot the gauge data and layout.
 Plotly.newPlot("gauge", gaugeData, gaugeLayout)
 });

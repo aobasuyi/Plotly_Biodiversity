@@ -43,20 +43,11 @@ HTML and Bootstrap to customize the webpage for your dashboard by adding the fol
 
 <br /><br />
 
-**The Plotly Belly_Button dynamic dashboard can be via the GitHub Pages (shown below) **
-<br />
+**The Plotly Belly_Button dynamic dashboard can be via the GitHub Pages**
+<br /><br />
+**[Belly Button Biodiversity Dashboard](https://aobasuyi.github.io/Plotly_Biodiversity/)** 
 
-<br /> 
-
-**[Belly Button Biodiversity Dashboard](https://aobasuyi.github.io/Plotly_Biodiversity/)**
-
-<br />
-
-or
-
-<br /> 
-
-https://aobasuyi.github.io/Plotly_Biodiversity/
+  https://aobasuyi.github.io/Plotly_Biodiversity/
 
 
 

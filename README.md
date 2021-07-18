@@ -1,7 +1,3 @@
-
-
-https://aobasuyi.github.io/Plotly_Biodiversity/
-
 # Plotly & Belly Button Biodiversity
 
 ## Overview of the analysis
@@ -28,7 +24,8 @@ The four technical analysis deliverables required to complete Plotly belly butto
 <br /> ![Image](static/images/horizontal_bar_chart.png) <br />
 
 **Bubble Chart** <br />
- JavaScript, Plotly, and D3.js, was used to create a corresponding bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage (as shown below) 
+ JavaScript, Plotly, and D3.js, was used to create a corresponding bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage (as shown below)
+
 <br /> ![Image](static/images/bubble_chart.png) <br />
 
 **Gauge Chart** <br />
@@ -46,7 +43,7 @@ HTML and Bootstrap to customize the webpage for your dashboard by adding the fol
 
 <br /><br />
 
-**The Plotly Belly_Button dynamic dashboard can be via the GitHub Pages site below**
+**The Plotly Belly_Button dynamic dashboard can be via the GitHub Pages (shown below) **
 <br />
 
 <br /> 
@@ -54,6 +51,13 @@ HTML and Bootstrap to customize the webpage for your dashboard by adding the fol
 **[Belly Button Biodiversity Dashboard](https://aobasuyi.github.io/Plotly_Biodiversity/)**
 
 <br />
+
+or
+
+<br /> 
+
+https://aobasuyi.github.io/Plotly_Biodiversity/
+
 
 
 

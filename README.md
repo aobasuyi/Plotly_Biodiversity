@@ -47,8 +47,8 @@ HTML and Bootstrap to customize the webpage for your dashboard by adding the fol
 <br /><br />
 **[Belly Button Biodiversity Dashboard](https://aobasuyi.github.io/Plotly_Biodiversity/)** 
 
-  https://aobasuyi.github.io/Plotly_Biodiversity/
-
+<!--   https://aobasuyi.github.io/Plotly_Biodiversity/
+ -->
 
 
 

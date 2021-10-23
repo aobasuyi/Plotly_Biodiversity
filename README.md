@@ -40,9 +40,7 @@ HTML and Bootstrap to customize the webpage for your dashboard by adding the fol
 - An image was added to the jumbotron.
 - The background color was updated to be compatible to the webpage.
 - A custom color added to contrast the colour of the font.
-
 <br /><br />
-
 **The Plotly Belly_Button dynamic dashboard can be via the GitHub Pages**
 <br /><br />
 **[Belly Button Biodiversity Dashboard](https://aobasuyi.github.io/Plotly_Biodiversity/)** 
